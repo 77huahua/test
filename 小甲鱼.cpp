@@ -6,12 +6,12 @@ int swap(int *p1,int *p2)
  	printf("Please wait^-^");
  	temp=*p1;
  	*p1=*p2;
- 	*p2=temp;
+ 	*p2=temp;//会有人在GitHub上看比较大小吗 
  }
 int main()
 {
 	int a,b;
-	int *pointer_1,*pointer_2;
+	int *pointer_1,*pointer_2;//是这样的吗 
 	scanf("%d %d",&a,&b);
 	
 	pointer_1=&a;
